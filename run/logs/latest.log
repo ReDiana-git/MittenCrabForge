@@ -1,135 +1,95 @@
-[223§Î2022 13:22:15.052] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.0.19, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236]
-[223§Î2022 13:22:15.056] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Oracle Corporation
-[223§Î2022 13:22:15.148] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/User/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
-[223§Î2022 13:22:16.262] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\User\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
-[223§Î2022 13:22:20.549] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19_mapped_official_1.18.2/forge-1.18.2-40.0.19_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
-[223§Î2022 13:22:20.550] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/User/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19_mapped_official_1.18.2/forge-1.18.2-40.0.19_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
-[223§Î2022 13:22:20.562] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[223§Î2022 13:22:20.568] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[223§Î2022 13:22:20.738] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
-[223§Î2022 13:22:22.561] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.0.19, for MC 1.18.2 with MCP 20220228.144236
-[223§Î2022 13:22:22.569] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.0.19 Initialized
-[223§Î2022 13:22:22.923] [Render thread/INFO] [com.example.rclab.rclab/]: HELLO from Register Block
-[223§Î2022 13:22:23.955] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[223§Î2022 13:22:24.035] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
-[223§Î2022 13:22:24.440] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[223§Î2022 13:22:25.200] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[223§Î2022 13:22:26.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA Current: 40.0.19 Target: 40.0.19
-[223§Î2022 13:22:29.930] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_overworld.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_overworld.json
-[223§Î2022 13:22:29.931] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_overworld.json' missing model for variant: 'rclab:mysterious_ore_overworld#'
-[223§Î2022 13:22:29.932] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_nether.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_nether.json
-[223§Î2022 13:22:29.932] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_nether.json' missing model for variant: 'rclab:mysterious_ore_nether#'
-[223§Î2022 13:22:29.933] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_end.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_end.json
-[223§Î2022 13:22:29.933] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_end.json' missing model for variant: 'rclab:mysterious_ore_end#'
-[223§Î2022 13:22:29.933] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_deepslate.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_deepslate.json
-[223§Î2022 13:22:29.933] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_deepslate.json' missing model for variant: 'rclab:mysterious_ore_deepslate#'
-[223§Î2022 13:22:31.556] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_overworld#inventory' referenced from: rclab:mysterious_ore_overworld#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_overworld.json
-[223§Î2022 13:22:31.557] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_nether#inventory' referenced from: rclab:mysterious_ore_nether#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_nether.json
-[223§Î2022 13:22:31.557] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_end#inventory' referenced from: rclab:mysterious_ore_end#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_end.json
-[223§Î2022 13:22:31.557] [Worker-Main-23/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_deepslate#inventory' referenced from: rclab:mysterious_ore_deepslate#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_deepslate.json
-[223§Î2022 13:22:34.605] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Mi Monitor (NVIDIA High Definition Audio)
-[223§Î2022 13:22:34.606] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[223§Î2022 13:22:34.750] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[223§Î2022 13:22:34.756] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
-[223§Î2022 13:22:34.756] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[223§Î2022 13:22:34.757] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[223§Î2022 13:22:34.758] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[223§Î2022 13:22:34.758] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[223§Î2022 13:22:34.758] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[223§Î2022 13:22:35.401] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[223§Î2022 13:22:35.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[223§Î2022 13:22:35.402] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[223§Î2022 13:22:36.308] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[223§Î2022 13:22:51.574] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:22:51.575] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:22:51.577] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[223§Î2022 13:22:51.577] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[223§Î2022 13:22:51.578] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:22:52.746] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[223§Î2022 13:22:53.581] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[223§Î2022 13:22:53.866] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[223§Î2022 13:22:53.882] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[223§Î2022 13:22:53.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[223§Î2022 13:22:54.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[223§Î2022 13:22:54.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[223§Î2022 13:22:54.584] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[223§Î2022 13:22:55.058] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[223§Î2022 13:22:55.561] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
-[223§Î2022 13:22:55.967] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[223§Î2022 13:22:55.967] [Server thread/INFO] [com.example.rclab.rclab/]: HELLO from server starting
-[223§Î2022 13:22:55.986] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1931 ms
-[223§Î2022 13:22:56.021] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[223§Î2022 13:22:56.022] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[223§Î2022 13:22:56.796] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[223§Î2022 13:22:56.831] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2d5a5852
-[223§Î2022 13:22:56.842] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:57805b6a] logged in with entity id 139 at (141.97484888086282, 74.0, -182.2131400503721)
-[223§Î2022 13:22:56.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[223§Î2022 13:22:57.238] [Render thread/WARN] [net.minecraft.client.multiplayer.ClientPacketListener/]: Received passengers for unknown entity
-[223§Î2022 13:22:57.289] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[223§Î2022 13:23:01.868] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[223§Î2022 13:23:01.875] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:23:01.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:23:01.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:23:05.368] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[223§Î2022 13:23:05.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:23:05.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:23:05.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:23:27.218] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[223§Î2022 13:23:27.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:23:27.225] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:23:27.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:25:01.871] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[223§Î2022 13:25:01.871] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[223§Î2022 13:25:02.198] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[223§Î2022 13:25:02.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[223§Î2022 13:25:02.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[223§Î2022 13:25:02.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[223§Î2022 13:25:02.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:25:03.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:25:03.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:25:03.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[223§Î2022 13:25:03.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[223§Î2022 13:25:03.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[223§Î2022 13:25:03.366] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[223§Î2022 13:25:12.254] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:25:12.254] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:25:12.255] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[223§Î2022 13:25:12.256] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[223§Î2022 13:25:12.257] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[223§Î2022 13:25:13.340] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[223§Î2022 13:25:14.061] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
-[223§Î2022 13:25:14.321] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[223§Î2022 13:25:14.322] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
-[223§Î2022 13:25:14.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[223§Î2022 13:25:14.338] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[223§Î2022 13:25:14.606] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[223§Î2022 13:25:14.863] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[223§Î2022 13:25:15.391] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[223§Î2022 13:25:15.886] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[223§Î2022 13:25:15.886] [Server thread/INFO] [com.example.rclab.rclab/]: HELLO from server starting
-[223§Î2022 13:25:15.893] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[223§Î2022 13:25:15.893] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[223§Î2022 13:25:15.904] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1542 ms
-[223§Î2022 13:25:16.096] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[223§Î2022 13:25:16.097] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@4001b4e8
-[223§Î2022 13:25:16.099] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:99e6369a] logged in with entity id 407 at (141.97484888086282, 74.0, -182.2131400503721)
-[223§Î2022 13:25:16.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[223§Î2022 13:25:16.312] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[223§Î2022 13:26:39.186] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[223§Î2022 13:26:39.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:26:39.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:26:39.192] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:26:40.240] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[223§Î2022 13:26:40.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[223§Î2022 13:26:40.244] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[223§Î2022 13:26:40.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[223§Î2022 13:26:40.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[223§Î2022 13:26:40.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[223§Î2022 13:26:40.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[223§Î2022 13:26:41.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[223§Î2022 13:26:41.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[223§Î2022 13:26:41.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[223§Î2022 13:26:41.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[223§Î2022 13:26:41.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[223§Î2022 13:26:41.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[223§Î2022 13:26:48.196] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[233Êúà2022 11:42:59.667] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.18, --assetsDir, C:\Users\RClab\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 40.0.19, --fml.mcVersion, 1.18.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220228.144236]
+[233Êúà2022 11:42:59.681] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 9.1.3+9.1.3+main.9b69c82a starting: java version 17.0.2 by Oracle Corporation
+[233Êúà2022 11:42:59.883] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/RClab/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%2322!/ Service=ModLauncher Env=CLIENT
+[233Êúà2022 11:43:02.011] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\RClab\.gradle\caches\forge_gradle\assets, --assetIndex, 1.18]
+[233Êúà2022 11:43:10.542] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/RClab/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19_mapped_official_1.18.2/forge-1.18.2-40.0.19_mapped_official_1.18.2-recomp.jar%2376!/assets/.mcassetsroot' uses unexpected schema
+[233Êúà2022 11:43:10.543] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/RClab/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.18.2-40.0.19_mapped_official_1.18.2/forge-1.18.2-40.0.19_mapped_official_1.18.2-recomp.jar%2376!/data/.mcassetsroot' uses unexpected schema
+[233Êúà2022 11:43:10.589] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[233Êúà2022 11:43:10.595] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[233Êúà2022 11:43:10.761] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 SNAPSHOT
+[233Êúà2022 11:43:13.493] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 40.0.19, for MC 1.18.2 with MCP 20220228.144236
+[233Êúà2022 11:43:13.496] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v40.0.19 Initialized
+[233Êúà2022 11:43:13.877] [Render thread/INFO] [com.example.rclab.rclab/]: HELLO from Register Block
+[233Êúà2022 11:43:17.242] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[233Êúà2022 11:43:17.334] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [examplemod]
+[233Êúà2022 11:43:17.508] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[233Êúà2022 11:43:18.656] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[233Êúà2022 11:43:23.853] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_overworld.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_overworld.json
+[233Êúà2022 11:43:23.854] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_overworld.json' missing model for variant: 'rclab:mysterious_ore_overworld#'
+[233Êúà2022 11:43:23.855] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_nether.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_nether.json
+[233Êúà2022 11:43:23.855] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_nether.json' missing model for variant: 'rclab:mysterious_ore_nether#'
+[233Êúà2022 11:43:23.856] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_end.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_end.json
+[233Êúà2022 11:43:23.856] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_end.json' missing model for variant: 'rclab:mysterious_ore_end#'
+[233Êúà2022 11:43:23.856] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: rclab:blockstates/mysterious_ore_deepslate.json: java.io.FileNotFoundException: rclab:blockstates/mysterious_ore_deepslate.json
+[233Êúà2022 11:43:23.856] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'rclab:blockstates/mysterious_ore_deepslate.json' missing model for variant: 'rclab:mysterious_ore_deepslate#'
+[233Êúà2022 11:43:25.546] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_overworld#inventory' referenced from: rclab:mysterious_ore_overworld#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_overworld.json
+[233Êúà2022 11:43:25.546] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_nether#inventory' referenced from: rclab:mysterious_ore_nether#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_nether.json
+[233Êúà2022 11:43:25.546] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_end#inventory' referenced from: rclab:mysterious_ore_end#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_end.json
+[233Êúà2022 11:43:25.547] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'rclab:mysterious_ore_deepslate#inventory' referenced from: rclab:mysterious_ore_deepslate#inventory: java.io.FileNotFoundException: rclab:models/item/mysterious_ore_deepslate.json
+[233Êúà2022 11:43:28.789] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on ÂñáÂè≠ (Realtek(R) Audio)
+[233Êúà2022 11:43:28.790] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[233Êúà2022 11:43:29.024] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[233Êúà2022 11:43:29.038] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[233Êúà2022 11:43:29.039] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[233Êúà2022 11:43:29.041] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[233Êúà2022 11:43:29.042] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[233Êúà2022 11:43:29.043] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[233Êúà2022 11:43:29.043] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[233Êúà2022 11:43:30.626] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[233Êúà2022 11:43:30.628] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[233Êúà2022 11:43:30.628] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[233Êúà2022 11:43:30.895] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: BETA_OUTDATED Current: 40.0.19 Target: 40.0.24
+[233Êúà2022 11:43:36.943] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[233Êúà2022 11:43:36.944] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[233Êúà2022 11:43:36.948] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[233Êúà2022 11:43:36.950] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[233Êúà2022 11:43:36.952] [Render thread/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[233Êúà2022 11:43:39.429] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[233Êúà2022 11:43:41.166] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1141 advancements
+[233Êúà2022 11:43:42.075] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[233Êúà2022 11:43:42.116] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.18.2
+[233Êúà2022 11:43:42.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[233Êúà2022 11:43:42.710] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[233Êúà2022 11:43:43.280] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[233Êúà2022 11:43:44.219] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[233Êúà2022 11:43:44.262] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[233Êúà2022 11:43:44.353] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[233Êúà2022 11:43:44.894] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[233Êúà2022 11:43:45.333] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[233Êúà2022 11:43:45.866] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[233Êúà2022 11:43:46.324] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[233Êúà2022 11:43:46.872] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
+[233Êúà2022 11:43:47.339] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 55%
+[233Êúà2022 11:43:47.839] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[233Êúà2022 11:43:47.840] [Server thread/INFO] [com.example.rclab.rclab/]: HELLO from server starting
+[233Êúà2022 11:43:47.851] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[233Êúà2022 11:43:47.851] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4539 ms
+[233Êúà2022 11:43:48.073] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[233Êúà2022 11:43:48.080] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[233Êúà2022 11:44:00.796] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[233Êúà2022 11:44:00.847] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@310ace8a
+[233Êúà2022 11:44:00.860] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:399f098a] logged in with entity id 135 at (138.86596052687284, 75.0, -188.84324362096788)
+[233Êúà2022 11:44:00.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[233Êúà2022 11:44:01.924] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[233Êúà2022 11:44:03.790] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[233Êúà2022 11:44:03.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[233Êúà2022 11:44:03.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[233Êúà2022 11:44:03.816] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[233Êúà2022 11:44:46.390] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[233Êúà2022 11:44:46.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[233Êúà2022 11:44:46.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[233Êúà2022 11:44:46.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[233Êúà2022 11:44:47.044] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[233Êúà2022 11:44:47.044] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[233Êúà2022 11:44:47.050] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[233Êúà2022 11:44:47.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[233Êúà2022 11:44:47.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[233Êúà2022 11:44:47.102] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[233Êúà2022 11:44:47.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[233Êúà2022 11:44:49.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[233Êúà2022 11:44:49.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[233Êúà2022 11:44:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[233Êúà2022 11:44:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[233Êúà2022 11:44:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[233Êúà2022 11:44:49.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[233Êúà2022 11:44:51.335] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
